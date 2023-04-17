@@ -1,0 +1,47 @@
+{
+  "name": "meln-to-do-app",
+  "version": "1.0.0",
+  "description": "Sample MELN stacked app.",
+  "main": "src/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server/index.mjs"
+  },
+  "nodemon": {
+    "watch": [
+      "src/*"
+    ],
+    "ext": [
+      "js",
+      "ts",
+      "json",
+      "css",
+      "html"
+    ],
+    "delay": "5000",
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aritram1/meln-to-do-app.git"
+  },
+  "keywords": [
+    "lwc",
+    "meln"
+  ],
+  "author": "aritram1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aritram1/meln-to-do-app/issues"
+  },
+  "homepage": "https://github.com/aritram1/meln-to-do-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
